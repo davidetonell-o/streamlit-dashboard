@@ -8,6 +8,7 @@ data/
 datasets/
 models/
 .virtual_documents/
+src/
 
 
 # Ambienti e Anaconda
@@ -21,4 +22,5 @@ env/
 # File di sistema
 .DS_Store
 Thumbs.db
+
 
