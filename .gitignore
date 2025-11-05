@@ -7,6 +7,8 @@ __pycache__/
 data/
 datasets/
 models/
+.virtual_documents/
+
 
 # Ambienti e Anaconda
 anaconda_projects/
@@ -19,3 +21,4 @@ env/
 # File di sistema
 .DS_Store
 Thumbs.db
+
