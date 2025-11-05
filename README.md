@@ -37,23 +37,22 @@ Built with **Python**, **Pandas**, **Matplotlib**, and **Streamlit**.
 ## 📂 Project Structure
 
 ai-journey/
-
+├─ app.py
+├─ requirements.txt 
+├─ README.md 
 │
+├─ notebooks/ 
+│ └─ 07_data_visualization.ipynb 
+│
+└─ src/ 
+└─ (optional helper scripts) 
 
-├─ app.py # Streamlit dashboard
-
-├─ requirements.txt # Dependencies
-
-├─ notebooks/ # Data exploration & analysis
-
-│ └─ <analysis notebooks>
-
-└─ data/ (not pushed)
 
 ---
 
 ## 🧠 Author
 Davide Tonello
 Data & AI Apprenticeship Journey  
+
 
 
