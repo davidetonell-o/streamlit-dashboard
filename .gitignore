@@ -5,11 +5,11 @@ __pycache__/
 *.pyc
 
 # Dati locali o troppo grandi
-data/
 notebooks/
 
 # File di sistema
 .DS_Store
 Thumbs.db
+
 
 
