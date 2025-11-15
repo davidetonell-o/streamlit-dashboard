@@ -6,7 +6,7 @@ Permette di filtrare i contenuti per Paese, tipo (Movie/TV Show), anno di rilasc
 ---
 
 ## 🚀 Demo
-👉 Link Streamlit Cloud: *da aggiungere dopo il deploy*  
+👉 Link Streamlit Cloud: https://davidetonell-o-streamlit-dashboard-app-rphlzy.streamlit.app/
 👉 GitHub Repo: https://github.com/davidetonell-o/streamlit-dashboard
 
 ---
@@ -30,3 +30,4 @@ Kaggle: https://www.kaggle.com/datasets/shivamb/netflix-shows
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
+
