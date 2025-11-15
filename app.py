@@ -13,7 +13,7 @@ st.write("Visualize and analyze Netflix titles by country, year and genre.")
 @st.cache_data
 def load_data():
     return pd.read_csv("data/archive/netflix_titles.csv")
-
+    
 df = load_data()
 
 #Cleaning data
@@ -79,7 +79,7 @@ st.dataframe(filtered.head(10))
 
 #Graph distribution per release year
 st.subheader("Distribution per releasing year")
-st.bar_chart(filtered["release_year"].value_counts().sort_index(), width="stretch", height="stretch")
+st.bar_chart(filtered["release_year"].value_counts().sort_index())
 
 #Graph count film vs series
 st.subheader("Count by type (Movie vs TV Show)")
