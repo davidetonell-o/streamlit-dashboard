@@ -1,27 +1,32 @@
-# 🧠 AI Journey
+# 🎬 Netflix Data Dashboard (Streamlit)
 
-## 🎯 Obiettivi
-- Sviluppare competenze pratiche in Python, Data Science e Machine Learning
-- Completare i moduli base del Google Data Analytics Certificate
-- Realizzare progetti pratici (es. analisi Kaggle, modelli ML, automazioni AI)
+Dashboard interattiva creata con **Streamlit** per analizzare il dataset **Netflix Movies & TV Shows** (Kaggle).  
+Permette di filtrare i contenuti per Paese, tipo (Movie/TV Show), anno di rilascio e visualizzare grafici e statistiche.
 
+---
 
+## 🚀 Demo
+👉 Link Streamlit Cloud: *da aggiungere dopo il deploy*  
+👉 GitHub Repo: https://github.com/davidetonell-o/streamlit-dashboard
 
-## 👤 Autore
-**Nome:** Davide Tonello  
-**Email:** davidetonello1@outlook.com  
-**GitHub:** [@davidetonell-o](https://github.com/davidetonell-o)
+---
 
-## 📁 Struttura del progetto
-ai-journey-day0-starter/
-├─ src/ → codice Python
-├─ data/ → dataset (non versionati)
-├─ notebooks/ → notebook Jupyter
-├─ docs/ → documentazione
-└─ README.md
+## 📊 Funzionalità
+- Filtri interattivi (Paese, tipo, anno)
+- Grafici sulle tendenze nel tempo
+- Distribuzione dei generi più comuni
+- Tabella dei titoli filtrabile
+- Statistiche rapide (count, trend)
 
-## Day 4 – Dashboard Base (Streamlit)
-- Creati i primi KPI
-- Creati i grafici mensili e di status
-- Aggiunto filtro anni
+---
 
+## 📁 Dataset
+Netflix Movies and TV Shows  
+Kaggle: https://www.kaggle.com/datasets/shivamb/netflix-shows
+
+---
+
+## ⚙️ Installazione
+```bash
+pip install -r requirements.txt
+streamlit run app.py

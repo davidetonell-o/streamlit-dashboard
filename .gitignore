@@ -1,24 +1,15 @@
 # Bytecode / cache
 __pycache__/
+.env
+.streamlit/
 *.pyc
-*.pyo
 
 # Dati locali o troppo grandi
 data/
-datasets/
-models/
-.virtual_documents/
-
-
-# Ambienti e Anaconda
-anaconda_projects/
-env/
-.venv/
-
-# Checkpoints Jupyter
-.ipynb_checkpoints/
+notebooks/
 
 # File di sistema
 .DS_Store
 Thumbs.db
+
 
